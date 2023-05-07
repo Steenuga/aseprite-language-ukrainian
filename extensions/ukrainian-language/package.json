@@ -1,0 +1,20 @@
+{
+  "name": "ukrainian-language",
+  "displayName": "Ukrainian Language",
+  "description": "",
+  "version": "1.3-beta21",
+  "author": {
+	"name": "Andrii Leibyk (steenuga)",
+    "email": "smartysteenuga@gmail.com",
+    "url": "https://github.com/Steenuga/aseprite-language-ukrainian"
+  },
+  "contributors": [ "steenuga" ],
+  "publisher": "steenuga",
+  "license": "CC-BY-4.0",
+  "categories": [ "Languages" ],
+  "contributes": {
+    "languages": [
+	  { "id": "ua", "path": "./ua.ini"}
+	]
+  }
+}
