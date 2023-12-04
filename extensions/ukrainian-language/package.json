@@ -1,20 +1,33 @@
 {
-  "name": "ukrainian-language",
-  "displayName": "Ukrainian Language",
-  "description": "",
+  "name": "language-ukrainian",
+  "displayName": "Language - Ukrainian",
+  "description": "Aseprite Language - Ukrainian",
   "version": "1.3-beta21",
   "author": {
-	"name": "Andrii Leibyk (steenuga)",
+    "name": "Andrii Leibyk (steenuga)",
     "email": "smartysteenuga@gmail.com",
     "url": "https://github.com/Steenuga/aseprite-language-ukrainian"
   },
-  "contributors": [ "steenuga" ],
+  "contributors": [
+    {
+      "name": "Andrii Leibyk (steenuga)",
+      "email": "smartysteenuga@gmail.com",
+      "url": "https://github.com/Steenuga/aseprite-language-ukrainian"
+    }
+  ],
   "publisher": "steenuga",
   "license": "CC-BY-4.0",
-  "categories": [ "Languages" ],
+  "categories": [
+    "Languages"
+  ],
   "contributes": {
     "languages": [
-	  { "id": "ua", "path": "./ua.ini"}
-	]
+      {
+        "id": "uk",
+        "path": "./uk.ini",
+        "englishName": "Ukrainian",
+        "displayName": "українська"
+      }
+    ]
   }
 }
